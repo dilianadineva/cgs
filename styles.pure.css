@@ -5,7 +5,7 @@
  *
  * Copyright (c) 2018 Daniel Eden
 *{margin: 0;padding: 0;box-sizing: border-box;}
-html,body{width:100%;}
+html,body{width:100% !important;}
 html,body{
     overflow-x: hidden;
 }
