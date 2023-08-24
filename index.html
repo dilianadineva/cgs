@@ -57,29 +57,7 @@ Contact us today to learn more about our bulk SMS packages and how we can help t
 }
 
 </style>
-<script>
-  const video = document.getElementById('myVideo');
-const playButton = document.getElementById('playButton');
 
-playButton.addEventListener('click', () => {
-  if (video.paused || video.ended) {
-    video.play();
-    playButton.style.display = 'none';
-  }
-});
-
-video.addEventListener('play', () => {
-  playButton.style.display = 'none';
-});
-
-video.addEventListener('pause', () => {
-  playButton.style.display = 'block';
-});
-
-video.addEventListener('ended', () => {
-  playButton.style.display = 'block';
-});
-</script>
 </head>
   <body data-home-page="Home.html" data-home-page-title="Home" class="u-body u-xl-mode" data-lang="en">
        <!-- Google Tag Manager (noscript) -->
@@ -346,4 +324,27 @@ background-color: #adcce9 !important
   
       <script class="u-script" type="text/javascript" src="cgsl.js" defer=""></script>  
 	  <script src="//instant.page/5.2.0" type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
-</body></html>
+    <script>
+      const video = document.getElementById('myVideo');
+    const playButton = document.getElementById('playButton');
+    
+    playButton.addEventListener('click', () => {
+      if (video.paused || video.ended) {
+        video.play();
+        playButton.style.display = 'none';
+      }
+    });
+    
+    video.addEventListener('play', () => {
+      playButton.style.display = 'none';
+    });
+    
+    video.addEventListener('pause', () => {
+      playButton.style.display = 'block';
+    });
+    
+    video.addEventListener('ended', () => {
+      playButton.style.display = 'block';
+    });
+    </script>
+  </body></html>
